@@ -25,5 +25,5 @@
    * [Troubleshooting](troubleshooting.md)
 * [DevShop Walkthroughs](devshop_walkthroughs.md)
    * [Intro](intro.md)
-* Getting Started
+* [Getting Started](getting_started.md)
 
