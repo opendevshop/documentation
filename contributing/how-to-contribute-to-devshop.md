@@ -126,11 +126,11 @@ To setup your IDE to listen for debug connections, use the following settings:
 * Host: 172.17.0.1
 * Port: 9000
 
-In PHPStorm, this is in the _Settings &gt; PHP &gt; Debug &gt; DGBp Proxy_ page.
+In PhpStorm, this is in the _Settings &gt; PHP &gt; Debug &gt; DGBp Proxy_ page.
 
 Don't forget to "Start Listening to PHP Debug Connections", get an XDEBUG plugin for your browser and enable it for devshop.local.computer, and to set a breakpoint or an error to see the debugger work.
 
-If using PHPStorm, It will ask you to map files. You should map ./aegir-home to /var/aegir as "Absolute path on the server".
+If using PhpStorm, it will ask you to map files. You should map `./aegir-home` to `/var/aegir` as "Absolute path on the server".
 
 If your Docker machine IP is not 172.17.0.1, you can change it but you must also change a line in docker-compose.yml:
 
@@ -159,7 +159,7 @@ See [Development with Vagrant](https://github.com/opendevshop/documentation/tree
 
 ## Help Improve Documentation
 
-Think this can be improved? You can [edit this file on GitHub](https://github.com/opendevshop/devshop/edit/0.x/README.vagrant.md) and select "Create a new branch for this commit and start a pull request.".
+Think this can be improved? You can [edit this file on GitHub](https://github.com/opendevshop/documentation/edit/master/contributing/how-to-contribute-to-devshop.md) and select "Create a new branch for this commit and start a pull request.".
 
 Thanks!
 
