@@ -32,12 +32,14 @@ The only tools you need on your host machine to develop devshop are:
 * If working on a Mac \(or a linux machine with a user other than uid 1000\), you need to regenerate your containers so the Aegir user UID matches your local user UID:
 
   ```text
+  robo prepare:sourcecode
   robo prepare:containers
   ```
 
   The command will attempt to automatically detect your UID. If you need to set it manually, you can pass the UID as an argument
 
   ```text
+  robo prepare:sourcecode
   robo prepare:containers 1001
   ```
 
