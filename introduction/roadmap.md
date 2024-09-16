@@ -2,7 +2,7 @@
 
 ## Past
 
-For the history of DevShop, see [CHANGELOG.md](http://github.com)
+For the history of DevShop, see [CHANGELOG.md](https://github.com/opendevshop/devshop/blob/1.x/CHANGELOG.md)
 
 ## 1.x Life cycle
 
@@ -10,12 +10,12 @@ For the history of DevShop, see [CHANGELOG.md](http://github.com)
 
 **Expected Release:** Q3 2016
 
-The original vision for DevShop is fully automated hosting and scaling. The [Aegir Cloud](http://drupal.org/project/aegir_cloud) and [Aegir Ansible](http://drupal.org/project/aegir_ansible) modules are the final piece to that puzzle.
+The original vision for DevShop is fully automated hosting and scaling. The [Aegir Cloud](http://drupal.org/project/aegir_cloud) and [Aegir Ansible](http://drupal.org/project/aegir_ansible) modules are the final pieces to that puzzle.
 
 When the following features are fully complete we will release 1.0.0:
 
 * [Aegir Cloud](http://drupal.org/project/aegir_cloud): Finish support for Amazon, DigitalOcean, Rackspace, and Linode.
-* Aegir Ansible: Finish production ready playbooks for Aegir Web, Database, and Load Balancing servers, including the security playbooks and user management.
+* Aegir Ansible: Finish production-ready playbooks for Aegir Web, Database, and Load Balancing servers, including the security playbooks and user management.
 * [Aegir SSH](http://drupal.org/project/aegir_ssh): Allow per-server user assignment.
 
 ### DevShop 1.1.x
@@ -42,5 +42,5 @@ Ideally, Aegir 4 will be Symfony components with a Drupal 8 front-end.
 
 DevShop 2 would be a flavor of that.
 
-My hope is for Aegir 4 and DevShop 2 to be completely server and app agnostic.
+My hope is for Aegir 4 and DevShop 2 to be completely server and app-agnostic.
 
